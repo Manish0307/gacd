@@ -68,3 +68,4 @@ names(tidydata) <- gsub("group.1", "Subject.ID", names(tidydata))
 names(tidydata) <- gsub("group.2", "Activity", names(tidydata))
 
 write.table(tidydata,"tidydata.txt",row.name=F)
+write.table(tidydata,"meandata.txt",row.name=F)
