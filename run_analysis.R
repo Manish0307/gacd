@@ -3,14 +3,14 @@ library(tidyr)
 
 # loading all the data into R
 
- subject_test<- read.table("./uci/test/subject_test.txt")
- X_test<- read.table("./uci/test/X_test.txt")
- Y_test<- read.table("./uci/test/Y_test.txt")
- subject_train<- read.table("./uci/train/subject_train.txt")
- X_train<- read.table("./uci/train/X_train.txt")
- Y_train<- read.table("./uci/train/Y_train.txt")
- features<- read.table("./uci/features.txt") # column names 
- Activity_labels<- read.table("./uci/Activity_labels.txt")
+ subject_test<- read.table("./samsung/test/subject_test.txt")
+ X_test<- read.table("./samsung/test/X_test.txt")
+ Y_test<- read.table("./samsung/test/Y_test.txt")
+ subject_train<- read.table("./samsung/train/subject_train.txt")
+ X_train<- read.table("./samsung/train/X_train.txt")
+ Y_train<- read.table("./samsung/train/Y_train.txt")
+ features<- read.table("./samsung/features.txt") # column names 
+ Activity_labels<- read.table("./samsung/Activity_labels.txt")
 
 # Naming the columns
 
