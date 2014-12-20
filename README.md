@@ -12,12 +12,12 @@ Source dataset https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUC
 ## Notes
 
 *  Only vaiables containing mean() & std() are used.
-*  Requires the plyr & reshape2 packages.
+*  Requires the dplyr package
 *  Assumes the dataset is unzipped in the current directory.
 
 Constructed using the following:
 
-```R
+
 > version
                _                           
 platform       x86_64-w64-mingw32          
@@ -34,12 +34,9 @@ svn rev        66913
 language       R                           
 version.string R version 3.1.2 (2014-10-31)
 nickname       Pumpkin Helmet     
-```
 
-##  Running
 
-```bash
 $ Rscript run_analysis.R
-```
+
 
 Yields tidydata.txt and meandata.txt
