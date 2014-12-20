@@ -19,20 +19,21 @@ Constructed using the following:
 
 ```R
 > version
-platform       x86_64-apple-darwin12.4.0
-arch           x86_64
-os             darwin12.4.0
-system         x86_64, darwin12.4.0
-status
-major          3
-minor          0.1
-year           2013
-month          05
-day            16
-svn rev        62743
-language       R
-version.string R version 3.0.1 (2013-05-16)
-nickname       Good Sport
+               _                           
+platform       x86_64-w64-mingw32          
+arch           x86_64                      
+os             mingw32                     
+system         x86_64, mingw32             
+status                                     
+major          3                           
+minor          1.2                         
+year           2014                        
+month          10                          
+day            31                          
+svn rev        66913                       
+language       R                           
+version.string R version 3.1.2 (2014-10-31)
+nickname       Pumpkin Helmet     
 ```
 
 ##  Running
