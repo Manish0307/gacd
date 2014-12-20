@@ -42,4 +42,4 @@ nickname       Pumpkin Helmet
 $ Rscript run_analysis.R
 ```
 
-Yields tidy.txt & tidy.mean.txt.
+Yields tidydata.txt and meandata.txt
